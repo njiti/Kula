@@ -12,5 +12,92 @@
         />
         <link rel="stylesheet" href="css/style.css" />
         <title>Kula</title>
-    </head>
-    <body>
+        <section class="landing">
+            <header class="container-fluid">
+                <div><h1>Kula</h1></div>
+            </header>
+
+            <div class="container">
+                <div class="hero">
+                    <div class="hero-content">
+                        <h1>Kula</h1>
+                        <h3>ORDER ON SITE</h3>
+                        <h3>OR</h3>
+                        <h3>Have it at your door step within minutes</h3>
+                    </div>
+                    <div class="hero-action">
+                        <a class="btn btn-primary" href="index.html#order-page">
+                            <h3>CHECK OUR MENU &DownArrow;</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="order-page" class="order-page">
+            <div class="container-fluid">
+                <div class="row order-and-cart">
+                    <div class="col-lg-5 order">
+                        <form id="form-order" class="form ">
+                            <h2>MAKE AN ORDER</h2>
+                            <div class="pizza-size form-group">
+                                <h6>Choose the size</h6>
+                                 <div class="form-check">
+                                    <input id="check1" class="input form-check-input" type="radio" name="size"value="large"/>
+                                    <label for="check1" class="form-label">Large</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="check2" class="input form-check-input" type="radio" name="size"value="medium"/>
+                                    <label for="check2" class="form-check-label" >Medium</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="check3" class="input form-check-input" type="radio" name="size"value="small"/>
+                                    <label for="check3" class="form-check-label" >Small</label>
+                                </div>
+
+                            </div>
+                            <div class="pizza-crust form-group">
+                                <h6>Select Crust type:</6>
+                                <select class="input crust form-control" name="crust" id="crust">
+                                    <option value="">---select---</option>
+                                    <option value="crispy">Crispy</option>
+                                    <option value="stuffed">Stuffed</option>
+                                    <option value="gluten-free">Gluten-free</option>
+                                </select>
+                            </div>
+                            
+                            <div class="pizza-toppings form-group">
+                                <h6>Choose Tooping(s):</h6>
+                                <div class="form-check">
+                                    <input id="topping-mushroom" class="input topping" type="checkbox" name="topping" value="mushroom"/>
+                                    <label for="topping-mushroom" class="form-check-label">Mushroom</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="topping-sausage" class="input topping" type="checkbox" name="topping" value="sausage"/>
+                                    <label for="topping-sausage" class="form-check-label">Sausage</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="topping-tomato" class="input topping" type="checkbox" name="topping" value="tomato"/>
+                                    <label for="topping-tomato" class="form-check-label">Tomato</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="topping-chicken" class="input topping" type="checkbox" name="topping" value="chicken"/>
+                                    <label for="topping-chicken" class="form-check-label">Chicken</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="topping-cucumber" class="input topping" type="checkbox" name="topping" value="cucumber"/>
+                                    <label for="topping-cucumber" class="form-check-label">Cucumber</label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+
+                                <label class="form-label" for="order-qty">Number of Orders</label>
+                                <input type="number" class="input num-orders form-control" name="order-qty" value="1" id="order-qty" min="1"/>
+                                <button id="add-to-cart" class="btn btn-primary">Add to cart</button>
+                                <div class="col-6">
+                                    <label for="price">Price(Ksh): </label>
+                                    <input type="number" id="price" readonly />
+                                </div>
+                            </div>
+                            <div class="delivery">
+                     
