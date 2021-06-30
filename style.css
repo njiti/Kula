@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: rgba(211, 146, 146, 0.5);
 }
 
 h2 {
@@ -7,7 +7,7 @@ h2 {
 }
 
 form h2 {
-    color: yellowgreen;
+    color: rgb(216, 111, 164, 0.5);
 }
 
 header {
@@ -15,7 +15,7 @@ header {
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-    background-color: rgba(255, 0, 0, 0.301);
+    background-color: rgb(216, 111, 164, 0.5);
 }
 .landing {
     background-image: url("../assets/backround-images/hawaiian-pizza.jpg");
@@ -32,32 +32,32 @@ header {
     height: 80vh;
 }
 
-.hero-content {
+.developer-content {
     color: white;
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 4rem;
 }
 
-.hero-content h3 {
-    background-color: rgba(27, 19, 19, 0.747);
+.developer-content h3 {
+    background-color: rgba(27, 19, 19, 0.5);
     text-align: center;
 }
 
-.hero-content h1 {
+.developer-content h1 {
     background-color: black;
     text-align: center;
     letter-spacing: 5px;
 }
 
 section.order {
-    background-color: burlywood;
+    background-color: rgb(216, 111, 164, 0.5);
     padding: 5px;
     margin: 2rem 3rem;
     
 }
 .order {
-    background-color: khaki;
+    background-color: rgb(216, 111, 164, 0.5);
     padding: 2rem;
 }
 
@@ -68,7 +68,7 @@ section.order {
 }
 
 form {
-    background-color: rgba(240, 230, 140, 0.857);
+    background-color: rgb(216, 111, 164, 0.5);
 }
 
 .form-check{
@@ -96,7 +96,7 @@ input.num-orders {
 }
 
 .cart {
-    background-color: rgba(240, 230, 140, 0.72);
+    background-color: rgb(216, 111, 164, 0.5);
     align-self: flex-start;
     height: 100%;
     overflow-y: scroll;

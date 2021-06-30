@@ -10,32 +10,30 @@
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="style.css">
         <script
             src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
             crossorigin="anonymous"
         ></script>
 
-        <title>Hot Pizza</title>
+        <title>Kula</title>
     </head>
     <body>
         <section class="landing">
             <header class="container-fluid">
-                <div><h1>HOTpizza</h1></div>
+                <div><h1>Kula</h1></div>
             </header>
 
             <div class="container">
                 <div class="hero">
-                    <div class="hero-content">
-                        <h1>HOTpizza</h1>
-                        <h3>ORDER ON SITE</h3>
-                        <h3>OR</h3>
-                        <h3>Have It Delivered While HOT</h3>
+                    <div class="developer-content">
+                        <h1>Kula</h1>
+                        <h3>You can now order here</h3>
                     </div>
-                    <div class="hero-action">
+                    <div class="developer-action">
                         <a class="btn btn-primary" href="index.html#order-page">
-                            <h3>CHECK OUR MENU &DownArrow;</h3>
+                            <h3>Start feasting ?</h3>
                         </a>
                     </div>
                 </div>
@@ -46,9 +44,9 @@
                 <div class="row order-and-cart">
                     <div class="col-lg-5 order">
                         <form id="form-order" class="form ">
-                            <h2>MAKE AN ORDER</h2>
+                            <h2>MAKE YOUR ORDER</h2>
                             <div class="pizza-size form-group">
-                                <h6>Choose the size</h6>
+                                <h6>Choose your fill</h6>
                                  <div class="form-check">
                                     <input id="check1" class="input form-check-input" type="radio" name="size"value="large"/>
                                     <label for="check1" class="form-label">Large</label>
@@ -68,20 +66,21 @@
                                 <select class="input crust form-control" name="crust" id="crust">
                                     <option value="">---select---</option>
                                     <option value="crispy">Crispy</option>
-                                    <option value="stuffed">Stuffed</option>
-                                    <option value="gluten-free">Gluten-free</option>
+                                    <option value="stuffed">Extra yeast</option>
+                                    <option value="gluten-free">Stuffed</option>
+                                    <option value="with-extra-cheese">With Extra cheese</option>
                                 </select>
                             </div>
                             
                             <div class="pizza-toppings form-group">
-                                <h6>Choose Tooping(s):</h6>
+                                <h6>Choose a Covering(s):</h6>
                                 <div class="form-check">
                                     <input id="topping-mushroom" class="input topping" type="checkbox" name="topping" value="mushroom"/>
-                                    <label for="topping-mushroom" class="form-check-label">Mushroom</label>
+                                    <label for="topping-mushroom" class="form-check-label">Buffalo legs</label>
                                 </div>
                                 <div class="form-check">
                                     <input id="topping-sausage" class="input topping" type="checkbox" name="topping" value="sausage"/>
-                                    <label for="topping-sausage" class="form-check-label">Sausage</label>
+                                    <label for="topping-sausage" class="form-check-label">Beef</label>
                                 </div>
                                 <div class="form-check">
                                     <input id="topping-tomato" class="input topping" type="checkbox" name="topping" value="tomato"/>
@@ -89,17 +88,16 @@
                                 </div>
                                 <div class="form-check">
                                     <input id="topping-chicken" class="input topping" type="checkbox" name="topping" value="chicken"/>
-                                    <label for="topping-chicken" class="form-check-label">Chicken</label>
+                                    <label for="topping-chicken" class="form-check-label">Cucumber</label>
                                 </div>
                                 <div class="form-check">
                                     <input id="topping-cucumber" class="input topping" type="checkbox" name="topping" value="cucumber"/>
-                                    <label for="topping-cucumber" class="form-check-label">Cucumber</label>
+                                    <label for="topping-cucumber" class="form-check-label">Chicken</label>
                                 </div>
                             </div>
                             
                             <div class="form-group">
-
-                                <label class="form-label" for="order-qty">Number of Orders</label>
+                                <label class="form-label" for="order-qty">Your Orders</label>
                                 <input type="number" class="input num-orders form-control" name="order-qty" value="1" id="order-qty" min="1"/>
                                 <button id="add-to-cart" class="btn btn-primary">Add to cart</button>
                                 <div class="col-6">
@@ -108,7 +106,7 @@
                                 </div>
                             </div>
                             <div class="delivery">
-                                <p>Delivery Adress</p>
+                                <p>To Be Delivery At?</p>
                                 <input class="address" type="text" name="delivery-name" id="delivery-name" placeholder="Customer name"/>
                                 <input class="address" type="text" name="delivery-phone" id="delivery-phone" placeholder="Customer phone"/>
                                 <input class="address" type="text" name="delivery-address" id="delivery-address" placeholder="Customer address"/>
