@@ -6,7 +6,7 @@ This is a website ment for selling pizza. It allows you to be able to to chooze 
 ## Setup/Installation Requirements
 * Clone the repo
 ```
-$ git clone https://github.com/PaulinhoNdegwa/HTML-Intro.git
+$ git clone https://github.com/njiti/Kula.git
 ```
 * Open  the project on VS Code/ your editor of choice
 * Open the project on live server
@@ -16,6 +16,9 @@ No known bugs yet
 * HTML
 * CSS
 * Javascript
+
+##Live link
+https://njiti.github.io/Kula/
 ## Support and contact details
 If you want to contact me, email me on kamaukan77@gmail.com
 ### License
