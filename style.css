@@ -1,4 +1,10 @@
 body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.biggerbolderbaking.com/wp-content/uploads/2019/07/15-Minute-Pizza-WS-Thumbnail.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Poppins;
     background-color: rgba(211, 146, 146, 0.5);
 }
 
@@ -45,7 +51,7 @@ header {
 }
 
 .developer-content h1 {
-    background-color: black;
+    background-color: rgb(231, 106, 200);
     text-align: center;
     letter-spacing: 5px;
 }
